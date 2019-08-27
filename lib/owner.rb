@@ -4,7 +4,7 @@ class Owner
 
 attr_accessor :name
 
-def initialize(species)
+def initialize(name)
   @name = name
   @@all << self
 end

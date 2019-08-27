@@ -5,7 +5,7 @@ attr_reader :name
   @@all_pets = [ ]
 
   def initialize(name)
-    @name = name 
+    @name = name
     @cats = []
     @dogs = []
     @@all << self
@@ -16,7 +16,7 @@ attr_reader :name
   end
 
   def self.count
-    @@all.length 
+    @@all.length
   end
 
   def self.reset_all

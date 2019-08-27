@@ -63,4 +63,3 @@ class Owner
       end
       arr.clear
     end
-  end

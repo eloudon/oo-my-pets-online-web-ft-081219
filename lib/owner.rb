@@ -10,3 +10,6 @@ def initialize(name)
 end
 
 end
+
+human = Owner.new("human")
+human2 = Owner.new("human2")
